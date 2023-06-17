@@ -1,0 +1,295 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+/* Nav stlings */
+nav {
+  background-color: rgb(12, 16, 83);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 35px 35px;
+}
+
+nav h1 {
+  font-size: 30px;
+}
+
+.our-work p {
+  text-align: center;
+  margin-top: 40px;
+}
+
+nav ul li {
+  list-style-type: none;
+
+}
+
+nav li a {
+  text-decoration: none;
+  color: white;
+  margin-right: 30px;
+}
+
+nav ul {
+  display: flex;
+}
+
+/* Nav styling ends */
+
+/* Main styling begins */
+
+.main-img {
+  padding: 10px 10px;
+}
+
+.main-img img {
+  width: 200px;
+  height: 200px;
+  border-radius: 200px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  margin-left: 540px;
+}
+
+/* Hero-section */
+
+.hero-section {
+  background-color: rgb(34, 214, 124);
+  padding: 60px 60px;
+  color: white;
+}
+
+.hero-section-words {
+  margin-left: 550px;
+}
+
+.hero-section hr {
+  width: 100px;
+  height: 2px;
+  background-color: white;
+  margin-top: 30px;
+}
+
+.hr-1 {
+  margin-left: 300px;
+}
+
+
+/* creators-user-badge */
+.creators-user-badge {
+  display: flex;
+  margin-left: 200px;
+}
+
+.creators-user-badge img {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+/* Projects */
+
+.projects h1 {
+  text-align: center;
+  color: rgb(12, 16, 83);
+  font-size: 42px;
+  margin-top: 30px;
+}
+
+
+.hr-3 {
+  margin-left: 300px;
+}
+
+.html-logo {
+  display: flex;
+  margin-left: 200px;
+}
+
+.html-logo img {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.html-logo hr {
+  width: 100px;
+  height: 2px;
+  background-color: rgb(12, 16, 83);
+  margin-top: 30px;
+}
+
+/* Cards */
+.first-batch-of-cards {
+  display: flex;
+  margin-left: 150px;
+}
+
+.first-batch-of-cards img {
+  width: 200px;
+  height: 200px;
+  border-radius: 200px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.card-1 {
+  background-color: white;
+  text-align: center;
+  box-shadow: 1px 1px 1px 1px grey;
+  margin-left: 40px;
+  width: 300px;
+  height: 400px;
+  margin: 40px;
+}
+
+
+.card-img {
+  background-color: rgb(23, 109, 112);
+  padding: 10px 50px;
+  height: 220px;
+}
+
+.card-1 h3 {
+  color: rgb(34, 214, 124);
+}
+
+.btn1 {
+  border-radius: 8px;
+  border-color: rgb(34, 214, 124);
+  background-color: rgb(34, 214, 124);
+}
+
+.btn2 {
+  border-radius: 8px;
+  border-color: gold;
+  background-color: gold;
+}
+
+/* About */
+.about {
+  background-color: rgb(34, 214, 124);
+  padding: 50px;
+}
+
+.about h1 {
+  color: white;
+  text-align: center;
+  font-size: 48px;
+}
+
+.about hr {
+  width: 100px;
+  height: 2px;
+  background-color: white;
+  margin-top: 30px;
+}
+
+.about p {
+  color: white;
+  text-align: center;
+  font-family: sans-serif;
+  margin-top: 30px;
+  font-size: 17px;
+}
+
+.about-p {
+  margin-bottom: 100px;
+}
+
+/* Contact */
+
+.contact {
+  padding: 50px;
+}
+
+.contact h1 {
+  color: rgb(12, 16, 83);
+  text-align: center;
+  font-size: 48px;
+}
+
+.contact hr {
+  width: 100px;
+  height: 2px;
+  background-color: rgb(12, 16, 83);
+  margin-top: 30px;
+}
+
+.contacts{
+display: flex;
+margin-left: 170px;
+}
+
+.contacts img {
+  width: 150px;
+  height: 150px;
+  border-radius: 150px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.contact-1{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-left: 200px;
+}
+.contact-2{
+  margin-top: 20px;
+  margin-bottom: 30px;
+  margin-left: 200px;
+}
+
+.contact-1 h3{
+  font-weight: bolder;
+}
+.contact-1 p{
+  text-align: center;
+}
+
+.contact-2 h3 a{ 
+  color: rgb(34, 214, 124);
+  font-weight: bolder;
+  text-decoration: none;
+}
+.contact-1 p{
+  text-align: center;
+}
+
+/* around-the-web */
+
+.around-the-web{
+  background-color: rgb(12, 16, 83);
+  color: white;
+  padding-top: 70px;
+}
+.around-the-web img {
+  width: 60px;
+  height: 60px;
+  border-radius: 60px;
+  margin-top: 100px;
+  margin-bottom: 0px;
+  margin-left: 50px;
+}
+
+.around-the-web-img{
+  margin-left: 460px;
+}
+.around-the-web h1{
+  margin-left: 580px;
+
+}
+
+footer{
+  background-color: black;
+  padding: 20px 20px;
+}
+
+footer h4{
+  text-align: center;
+  color: white;
+}
